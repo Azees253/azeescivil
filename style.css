@@ -953,6 +953,12 @@ form textarea {
   .civil-row {
     display: block;
   }
+  .read-more-btn,
+  .read-less-btn {
+    padding: 8px 18px;
+    font-size: 10px;
+    letter-spacing: 0;
+  }
 
   .layer {
     width: 100%;
