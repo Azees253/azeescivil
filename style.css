@@ -981,11 +981,11 @@ form textarea {
     opacity: 0;
   }
   .sketchfab-embed-wrapper{
-    width: 250%;
+    width: 150%;
     max-width: 100%;
     box-sizing: border-box;
     padding: 5px !important;
-    margin: 5px;
+    margin: 80px;
   }
   .sketchfab-embed-wrapper iframe{
   width: 100%;
