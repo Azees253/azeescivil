@@ -568,6 +568,33 @@ section {
   padding-left: 10%;
   padding-bottom: 5%;
 }
+.sketchfab-embed-wrapper{
+  width: 100%;
+  max-width: 350px;
+  background-color: #1e1e1e;
+  border-radius: 12px;
+  padding: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+  transition:transform 0.30s ease;
+}
+.sketchfab-embed-wrapper:hover{
+  transform: translateY(-5px);
+}
+.sketchfab-embed-wrapper iframe{
+  width: 100%;
+  height: 200px;
+  border: none;
+  border-radius: 8px;
+}
+.sketchfab-embed-wrappe a{
+  color: #00bcd4;
+  text-decoration: none;
+  font-weight: bold;
+
+}
+.sketchfab-embed-wrappe a:hover{
+  text-decoration: underline;
+}
 
 .row {
   position: relative;
@@ -944,6 +971,17 @@ form textarea {
     animation: showText 0.5s 1s linear forwards;
     opacity: 0;
   }
+  .sketchfab-embed-wrapper{
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+  }
+  .sketchfab-embed-wrapper iframe{
+  width: 100%;
+  height: 100px;
+  border: none;
+  border-radius: 8px;
+}
   .row img {
     width: 150px;
     height: 100px;
