@@ -597,13 +597,25 @@ section {
 .sketchfab-embed-wrappe a:hover{
   text-decoration: underline;
 }
+.sketchfab-para{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 10px;
+}
 
 .sketchfab-para a {
   display: flex;
   text-decoration: none;
-  padding: 10px;
+  padding: 2px;
   color: white;
   
+}
+.sketchfab-para .hiding{
+  display: block;
+}
+.sketchfab-para .hiding:hover{
+  color: blue;
 }
 .row {
   position: relative;
@@ -995,8 +1007,11 @@ form textarea {
   
 }
 .sketchfab-para a{
-  font-size: 10px;
+  font-size: 5px;
 }
+ /* .sketchfab-para .hiding{
+  display: none;
+} */
   .row img {
     width: 150px;
     height: 100px;
