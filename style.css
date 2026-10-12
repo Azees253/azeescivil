@@ -358,25 +358,32 @@ section {
   transform: scaleX(0);
   transform-origin: left;
 }
-.progress-line.html span {
-  width: 90%;
+.progress-line.cadd span {
+  width: 95%;
 }
-.progress-line.css span {
-  width: 60%;
-}
-.progress-line.javascript span {
-  width: 60%;
-}
-.progress-line.react span {
-  width: 50%;
-}
-
-.progress-line.reactnative span {
-  width: 40%;
-}
-.progress-line.github span {
+.progress-line.excel span {
   width: 80%;
 }
+.progress-line.design span {
+  width: 98%;
+}
+.progress-line.qs span {
+  width: 85%;
+}
+.progress-line.revit span{
+  width: 99%;
+}
+.progress-line.sketchfab span{
+    width: 65%;
+}
+.progress-line.autodesk span{
+    width: 85%;
+}
+.progress-line.html span{
+     width: 70%;
+}
+
+
 
 .progress-line span::after {
   position: absolute;
@@ -390,25 +397,32 @@ section {
   animation: showText 0.5s 1.5s linear forwards;
   opacity: 0;
 }
-.progress-line.html span::after {
+.progress-line.cadd span::after {
   content: "90%";
 }
-.progress-line.css span::after {
-  content: "60%";
-}
-.progress-line.javascript span::after {
-  content: "60%";
-}
-.progress-line.react span::after {
-  content: "50%";
-}
-
-.progress-line.reactnative span::after {
-  content: "40%";
-}
-.progress-line.github span::after {
+.progress-line.excel span::after {
   content: "80%";
 }
+.progress-line.design span::after {
+  content: "98%";
+}
+.progress-line.qs span::after {
+  content: "85%";
+}
+.progress-line.revit span::after {
+      content: "99%";
+}
+.progress-line.sketchfab  span::after {
+ content: "65%";
+}
+.progress-line.autodesk span::after {
+ content: "85%";
+}
+.progress-line.html span::after {
+ content: "70%";
+}
+
+
 .progress-line span::before {
   content: "";
   position: absolute;
@@ -498,22 +512,22 @@ section {
 }
 @keyframes animate-path1 {
   100% {
-    stroke-dashoffset: 90;
+    stroke-dashoffset: 35;
   }
 }
 @keyframes animate-path2 {
   100% {
-    stroke-dashoffset: 175;
+    stroke-dashoffset: 65;
   }
 }
 @keyframes animate-path3 {
   100% {
-    stroke-dashoffset: 127;
+    stroke-dashoffset: 80;
   }
 }
 @keyframes animate-path4 {
   100% {
-    stroke-dashoffset: 110;
+    stroke-dashoffset: 20;
   }
 }
 
